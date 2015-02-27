@@ -1,11 +1,9 @@
-var resourceArr = [];
-resourceArr['master'] = {};
-resourceArr['master']['Title'] = "Localization demo";
-resourceArr["master"]["Row1"] = "Row one content";
-resourceArr["master"]["Row2"] = "Row two content";
-resourceArr["master"]["Row3"] = "Row three content";
-resourceArr["master"]["Row4"] = "Row four content";
-resourceArr["master"]["Row5"] = "Row five content";
-resourceArr["master"]["Row6"] = "Row six content";
-resourceArr["master"]["Row7"] = "Row seven content";
-
+var resources = [];
+resources['demo.Title'] = "Localization demo";
+resources['demo.Row1'] = "Row one content";
+resources['demo.Row2'] = "Row two content";
+resources['demo.Row3'] = "Row three content";
+resources['demo.Row4'] = "Row four content";
+resources['demo.Row5'] = "Row five content";
+resources['demo.Row6'] = "Row six content";
+resources['demo.Row7'] = "Row seven content";
