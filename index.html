@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><span localeval="master:Title"></span></title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+    <h1><span localeval="master:Title"></span></h1>  
+    <table class="table table-condensed">
+        <tr class="active"><span localeval="master:Row1"></span></tr>
+        <tr class="success"><span localeval="master:Row2"></span></tr>
+        <tr class="warning"><span localeval="master:Row3"></span></tr>
+        <tr class="danger"><span localeval="master:Row4"></span></tr>
+        <tr class="info"><span localeval="master:Row5"></span></tr>
+    </table>
+    
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <script src="/localizer.js"></script>
+    
+    <script type="text/javascript">
+        var vars = [], hash;
+        var q = document.URL.split('?')[1];
+        if(q != undefined){
+            q = q.split('&');
+            for(var i = 0; i < q.length; i++){
+                hash = q[i].split('=');
+                vars.push(hash[1]);
+                vars[hash[0]] = hash[1];
+            }
+        }
+        $( document ).ready(function() {
+            $.getScript( "/resource."+vars["SPLanguage"]+".js" )
+                .done(function( script, textStatus ) {
+                ProcessDivLocalization();
+            })
+            .fail(function( jqxhr, settings, exception ) {
+            console.log("failed to load resource ");
+            });
+                       
+        });
+    </script>
+    
+</body>
+
+</html>

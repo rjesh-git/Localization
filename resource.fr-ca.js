@@ -1,0 +1,10 @@
+var resourceArr = [];
+resourceArr["master"] = {};
+resourceArr["master"]["Title"] = "Démonstration de localisation";
+resourceArr["master"]["Row1"] = "Row une contenu";
+resourceArr["master"]["Row2"] = "Row deux contenu";
+resourceArr["master"]["Row3"] = "Row trois contenu";
+resourceArr["master"]["Row4"] = "Row quatre contenu";
+resourceArr["master"]["Row5"] = "Row cinq contenu";
+resourceArr["master"]["Row6"] = "Row six contenu";
+resourceArr["master"]["Row7"] = "Row sept contenu";
