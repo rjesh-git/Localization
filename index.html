@@ -34,9 +34,10 @@
             }
         }
         $( document ).ready(function() {
+            vars["SPLanguage"] = vars["SPLanguage"] || "en-us";
             $.getScript( "/resource."+vars["SPLanguage"]+".js" )
                 .done(function( script, textStatus ) {
-                ProcessDivLocalization();
+                Localizer.ProcessDivLocalization();
             })
             .fail(function( jqxhr, settings, exception ) {
             console.log("failed to load resource ");
@@ -44,7 +45,6 @@
                        
         });
     </script>
-    
 </body>
 
 </html>

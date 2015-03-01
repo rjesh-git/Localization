@@ -1,8 +1,8 @@
 // this is the main dictionary that stores the Localozation key / values
 "use strict";
+var Localizer = Localizer || {};
 
-
-var ProcessDivLocalization = function () {
+Localizer.ProcessDivLocalization = function () {
     $("div[localeval]").each(function (index) {
         //var arr = $(this).attr('localeval').split(":");
         $(this).html(resources[$(this).attr('localeval')]);
