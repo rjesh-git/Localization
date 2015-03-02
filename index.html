@@ -9,19 +9,19 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1><span localeval="demo.Title"></h1>
-            <p><span localeval="demo.para"></p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button"><span localeval="demo.more"></a></p>
+			<h1><span localeval="demo.Title"></span></h1>
+			<p><span localeval="demo.para"></span></p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button"><span localeval="demo.more"></span></a></p>
         </div>
         <ul class="list-group">
-            <li class="list-group-item"><span class="badge">14</span><span localeval="demo.inbox"></li>
-            <li class="list-group-item"><span class="badge">5</span><span localeval="demo.sent"></li>
-            <li class="list-group-item"><span class="badge">56</span><span localeval="demo.trash"></li>
+			<li class="list-group-item"><span class="badge">14</span><span localeval="demo.inbox"></span></li>
+			<li class="list-group-item"><span class="badge">5</span><span localeval="demo.sent"></span></li>
+			<li class="list-group-item"><span class="badge">56</span><span localeval="demo.trash"></span></li>
         </ul>
     </div>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="/localizer.js"></script>
+    <script src="/scripts/localizer.js"></script>
     <script type="text/javascript">
         var vars = [], hash;
         var q = document.URL.split('?')[1];
@@ -35,7 +35,7 @@
         }
         $( document ).ready(function() {
             vars["SPLanguage"] = vars["SPLanguage"] || "en-us";
-            $.getScript( "/resource."+vars["SPLanguage"]+".js" )
+            $.getScript( "/scripts/resource."+vars["SPLanguage"]+".js" )
                 .done(function( script, textStatus ) { Localizer.Process(); })
                 .fail(function( jqxhr, settings, exception ) { console.log("failed to load resource "); });
         });
