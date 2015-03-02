@@ -1,9 +1,9 @@
 var resources = [];
 resources['demo.Title'] = "Démonstration de localisation";
-resources['demo.Row1'] = "Row une contenu";
-resources['demo.Row2'] = "Row deux contenu";
-resources['demo.Row3'] = "Row trois contenu";
-resources['demo.Row4'] = "Row quatre contenu";
-resources['demo.Row5'] = "Row cinq contenu";
+resources['demo.para'] = "Ce est une unité de héros simple, un simple composant jumbotron style pour appeler une attention particulière au contenu ou de l'information sélectionnée .";
+resources['demo.inbox'] = "Boîte de réception";
+resources['demo.sent'] = "Éléments envoyés";
+resources['demo.trash'] = "déchets ";
+resources['demo.more'] = "plus";
 resources['demo.Row6'] = "Row six contenu";
 resources['demo.Row7'] = "Row sept contenu";
