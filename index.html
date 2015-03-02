@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 </head>
-
 <body>
     <h1><span localeval="demo.Title"></span></h1>  
     <table class="table table-condensed">
@@ -16,7 +15,6 @@
         <tr class="danger"><span localeval="demo.Row4"></span></tr>
         <tr class="info"><span localeval="demo.Row5"></span></tr>
     </table>
-    
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="/localizer.js"></script>
@@ -34,12 +32,8 @@
         $( document ).ready(function() {
             vars["SPLanguage"] = vars["SPLanguage"] || "en-us";
             $.getScript( "/resource."+vars["SPLanguage"]+".js" )
-                .done(function( script, textStatus ) {
-                Localizer.ProcessDivLocalization();
-            })
-            .fail(function( jqxhr, settings, exception ) {
-                console.log("failed to load resource ");
-            });
+                .done(function( script, textStatus ) { Localizer.Process(); })
+                .fail(function( jqxhr, settings, exception ) { console.log("failed to load resource "); });
         });
     </script>
 </body>

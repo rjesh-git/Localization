@@ -2,7 +2,7 @@
 "use strict";
 var Localizer = Localizer || {};
 
-Localizer.ProcessDivLocalization = function () {
+Localizer.Process = function () {
     /*$("div[localeval]").each(function (index) {
         //var arr = $(this).attr('localeval').split(":");
         $(this).html(resources[$(this).attr('localeval')]);
