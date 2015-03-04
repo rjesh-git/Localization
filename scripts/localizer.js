@@ -8,10 +8,14 @@ Localizer.Process = function () {
         $(this).html(resources[$(this).attr('localeval')]);
     });*/
 
+	console.time("localizer");
+
     $("[localeval]").each(function (index) {
-        console.log($(this).attr('localeval'));
+        //console.log($(this).attr('localeval'));
         $(this).html(resources[$(this).attr('localeval')]);
     });
+
+	console.timeEnd("localizer");
     /*$("span[localeval]").each(function (index) {
         //var arr = $(this).attr('localeval').split(":");
         //$(this).html(resourceArr[arr[0]][arr[1]]);

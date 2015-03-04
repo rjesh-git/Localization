@@ -1,9 +1,9 @@
 var resources = [];
-resources['demo.Title'] = "பரவல் ஆர்ப்பாட்டம்";
-resources['demo.para'] = "இது ஒரு எளிய ஹீரோ அலகு , சிறப்பு உள்ளடக்க அல்லது தகவல் கூடுதல் கவனத்தை ஈர்ப்பதற்காக ஒரு எளிய jumbotron பாணி அங்கமாகும்.";
-resources['demo.inbox'] = "பெட்டியில்";
-resources['demo.sent'] = "அனுப்பிய உருப்படிகள்";
-resources['demo.trash'] = "குப்பை";
-resources['demo.more'] = "மேலும்";
-resources['demo.Row6'] = "ரோ ஐந்து உள்ளடக்கம்";
-resources['demo.Row7'] = "ரோ ஐந்து உள்ளடக்கம்";
+resources['Title'] = "பரவல் ஆர்ப்பாட்டம்";
+resources['para'] = "இது ஒரு எளிய ஹீரோ அலகு , சிறப்பு உள்ளடக்க அல்லது தகவல் கூடுதல் கவனத்தை ஈர்ப்பதற்காக ஒரு எளிய jumbotron பாணி அங்கமாகும்.";
+resources['inbox'] = "பெட்டியில்";
+resources['sent'] = "அனுப்பிய உருப்படிகள்";
+resources['trash'] = "குப்பை";
+resources['more'] = "மேலும்";
+resources['Row6'] = "ரோ ஐந்து உள்ளடக்கம்";
+resources['Row7'] = "ரோ ஐந்து உள்ளடக்கம்";
