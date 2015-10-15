@@ -2,6 +2,8 @@
 
 [![bitHound Score](https://www.bithound.io/github/rjesh-git/localization/badges/score.svg?)](https://www.bithound.io/github/rjesh-git/localization)
 [![bitHound Dependencies](https://www.bithound.io/github/rjesh-git/localization/badges/dependencies.svg)](https://www.bithound.io/github/rjesh-git/localization/master/dependencies/npm)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)]()
 
 ### Summary ###
 Localization in SharePoint Add-in through Javascript
