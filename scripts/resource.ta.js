@@ -1,9 +1,6 @@
 var resources = [];
-resources['Title'] = "பரவல் ஆர்ப்பாட்டம்";
-resources['para'] = "இது ஒரு எளிய ஹீரோ அலகு , சிறப்பு உள்ளடக்க அல்லது தகவல் கூடுதல் கவனத்தை ஈர்ப்பதற்காக ஒரு எளிய jumbotron பாணி அங்கமாகும்.";
-resources['inbox'] = "பெட்டியில்";
-resources['sent'] = "அனுப்பிய உருப்படிகள்";
-resources['trash'] = "குப்பை";
-resources['more'] = "மேலும்";
-resources['Row6'] = "ரோ ஐந்து உள்ளடக்கம்";
-resources['Row7'] = "ரோ ஐந்து உள்ளடக்கம்";
+
+resources.PageTitle = "உள்ளூராக்கல் மாதிரி";
+resources.HeaderText = "வணக்கம்! உலகம்";
+resources.ParaText = "இது ஒரு மாதரி வாக்கியம், இதன் குறிக்கோள் சோதனை முயற்சி மட்டுமே!!";
+resources.BtnTextLearnMore = "இன்னும் தெரிந்கொள்ள ";

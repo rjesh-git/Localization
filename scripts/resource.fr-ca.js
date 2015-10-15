@@ -1,9 +1,6 @@
 var resources = [];
-resources['Title'] = "Démonstration de localisation";
-resources['para'] = "Ce est une unité de héros simple, un simple composant jumbotron style pour appeler une attention particulière au contenu ou de l'information sélectionnée .";
-resources['inbox'] = "Boîte de réception";
-resources['sent'] = "Éléments envoyés";
-resources['trash'] = "déchets ";
-resources['more'] = "plus";
-resources['Row6'] = "Row six contenu";
-resources['Row7'] = "Row sept contenu";
+
+resources.PageTitle = "localisation échantillon";
+resources.HeaderText = "Bonjour le monde!";
+resources.ParaText = "Ceci est une unité de héros simple, un composant simple jumbotron style pour appeler une attention particulière aux contenus ou informations sélectionnée.";
+resources.BtnTextLearnMore = "Apprendre encore plus";
