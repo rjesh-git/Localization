@@ -13,7 +13,6 @@
 
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="../Scripts/localizer.js"></script>
-
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -31,6 +30,6 @@
 		</div>
     </div>
 	<script type="text/javascript">
-	localizer.Init();
+		localizer.Init();
 	</script>
 </asp:Content>

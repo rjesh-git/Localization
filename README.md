@@ -37,6 +37,6 @@ Try /default.aspx?SPLanguage=en-us or /default.aspx?SPLanguage=fr-ca or /default
 
 ## Sample resource files ##
 resource.en-us.js
-resource.fr-ca.js
+resource.fr-FR.js
 resource.ta.js
 
