@@ -31,12 +31,14 @@ Version  | Date | Comments
 ----------
 
 # Usage #
-Renders the add-in content based on the SPLanguage tokem value in the Query String.
-Try /default.aspx?SPLanguage=en-us or /default.aspx?SPLanguage=fr-ca or /default.aspx?SPLanguage=ta
+
+- Add localizer js to your web page
+- Create JS resource files in the format resource.<<LL-cc>>.js format
+- Use localizer.Init() method
 
 
 ## Sample resource files ##
-resource.en-us.js
-resource.fr-FR.js
-resource.ta.js
+- resource.en-us.js
+- resource.fr-FR.js
+- resource.ta.js
 
