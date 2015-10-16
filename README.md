@@ -1,4 +1,4 @@
-# localization in SharePoint Add-in
+# Localization in SharePoint Add-in
 
 [![bitHound Score](https://www.bithound.io/github/rjesh-git/localization/badges/score.svg?)](https://www.bithound.io/github/rjesh-git/localization)
 [![bitHound Dependencies](https://www.bithound.io/github/rjesh-git/localization/badges/dependencies.svg)](https://www.bithound.io/github/rjesh-git/localization/master/dependencies/npm)
