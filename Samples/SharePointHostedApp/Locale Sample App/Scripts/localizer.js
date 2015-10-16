@@ -37,7 +37,7 @@ localizer.Init = function (options) {
     catch (ex) {
         console.error(ex.message);
     }
-}
+};
 
 localizer.getResource = function () {
     var dfd = new jQuery.Deferred(),
